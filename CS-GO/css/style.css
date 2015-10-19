@@ -1,0 +1,16 @@
+
+* {
+    box-sizing: border-box;
+}
+.col-xs-1 {
+    border: 1px solid black;
+    width: 85px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+.nom {
+    font-size: 15px;
+    text-align: center;
+    line-height: 2;
+}
