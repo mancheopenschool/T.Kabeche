@@ -1,0 +1,144 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    overflow: hidden;
+    background-color: #0098D3;
+}
+
+body {
+    -moz-transition: background-color 1s ease-in;
+    -webkit-transition: background-color 1s ease-in;
+    -o-transition: background-color 1s ease-in;
+    -ms-transition: background-color 1s ease-in;
+    transition: background-color 1s ease-in;
+}
+
+a{
+    color: #F0F0F0;
+}
+
+a:hover {
+    color: #000;
+}
+
+/* Menu Common */
+
+nav a{
+    color: #F0F0F0;
+}
+
+nav a.current, nav a:hover{
+    background: #F0F0F0;
+    color: #E46C51;
+}
+
+
+/* Main Content */
+
+.section1-visible{ background: #B0C4DE; }
+
+#main .home h1{
+    background: transparent url('images/logo.png') center center no-repeat;
+}
+
+
+.quote{
+    background: #0098D3 url('images/quote.png') 15px 15px no-repeat;
+    padding: 20px 20px 20px 80px;
+}
+
+.scroll {
+    background: url("images/scroll.png") no-repeat scroll center top transparent;
+}
+.scroll:hover{
+    background: url("images/scroll.png") bottom center no-repeat;
+}
+
+.progress {
+    background: white;
+}
+
+.progress .bar {
+    background: #0098D3;
+}
+
+.scroll {
+    background: url("images/scroll.png") no-repeat scroll center top transparent;
+}
+
+.scroll:hover{
+    background: url("images/scroll.png") bottom center no-repeat;
+}
+
+/* Contact */
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form input[type="url"],
+#contact-form textarea {
+    background:#FFF;
+    box-shadow:inset 0 1px 2px #F6F6F6, 0 1px 0 #FFF;
+    -webkit-box-shadow:inset 0 1px 2px #F6F6F6, 0 1px 0 #FFF;
+    -moz-box-shadow:inset 0 1px 2px #F6F6F6, 0 1px 0 #FFF;
+}
+#contact-form button[type="submit"] {
+    background:#E46C51;
+    color:#F6F6F6;
+}
+#contact-form button[type="submit"]:hover {
+    background:#F6F6F6;
+    color:#E46C51;
+}
+
+/* Media Queries */
+
+/* TABLETS */
+@media screen and (max-width: 1020px ) {
+
+
+
+    #main .home h1{
+        background: transparent url('images/logo-medium.png') center center no-repeat;
+    }
+
+
+}
+
+
+/* SMARTPHONES */
+@media screen and (max-width: 767px ) {
+
+
+
+
+    #main .home h1{
+        background: transparent url('images/logo-small.png') center center no-repeat;
+    }
+
+    .scroll {
+        background-image: url('images/scroll-small.png');
+    }
+    .scroll:hover {
+        background-image: url('images/scroll-small.png');
+    }
+
+
+}
+
+
+@media screen and (max-width: 767px ) {
+    .headerstandard {
+        display: none;
+    }
+    header.headermobile  {
+        display: block;
+    }
+}
+
+.image {
+    width: 350px;
+    position: relative; left: 50%; margin-left: -175px;
+}
