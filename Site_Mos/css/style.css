@@ -35,10 +35,13 @@ nav a.current, nav a:hover{
     color: #E46C51;
 }
 
-
 /* Main Content */
 
-.section1-visible{ background: #B0C4DE; }
+.section1-visible{ background: #D3D3D3; }
+.section2-visible{ background: #B0C4DE;}
+.section3-visible{ background: #ADD8E6;}
+.section4-visible{ background: #A9A9A9}
+.section5-visible{ background: #778899}
 
 #main .home h1{
     background: transparent url('images/logo.png') center center no-repeat;
