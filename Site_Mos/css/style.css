@@ -114,9 +114,6 @@ nav a.current, nav a:hover{
 /* SMARTPHONES */
 @media screen and (max-width: 767px ) {
 
-
-
-
     #main .home h1{
         background: transparent url('images/logo-small.png') center center no-repeat;
     }
@@ -127,8 +124,6 @@ nav a.current, nav a:hover{
     .scroll:hover {
         background-image: url('images/scroll-small.png');
     }
-
-
 }
 
 
