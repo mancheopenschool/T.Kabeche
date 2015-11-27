@@ -1,0 +1,42 @@
+{
+  "1": {
+    "NQ": "1",
+    "Question": "Where is Brian ?",
+    "Réponse": "Kitchen",
+    "Choix": [
+      "Bathroom",
+      "Kitchen",
+      "Garage"
+    ]
+  },
+  "2": {
+    "NQ": "2",
+    "Question": "Who is Harry Potter?",
+    "Réponse": "Wizard",
+    "Choix": [
+      "Duck",
+      "God",
+      "Wizard"
+    ]
+  },
+  "3": {
+    "NQ": "3",
+    "Question": "The life answer?",
+    "Réponse": "42",
+    "Choix": [
+      "Death",
+      "Sex",
+      "42"
+    ]
+  },
+  "4":{
+    "NQ": "4",
+    "Question": "Where is Phil?",
+    "Réponse": "Mos",
+    "Choix": [
+      "Mos",
+      "Home",
+      "Google"
+    ]
+  }
+}

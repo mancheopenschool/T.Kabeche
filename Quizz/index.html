@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <title>Quizz</title>
+</head>
+<body>
+
+<center>
+    <h1>Quizz</h1>
+    <div class="quizz"></div>
+    <FORM>
+        <INPUT TYPE="submit" NAME="nom" VALUE=" Envoyer ">
+    </FORM>
+</center>
+
+<script>
+    $.getJSON('quizz.json', function(quizz) {
+    });
+</script>
+<script src="js/custom.js" type="text/javascript"></script>
+<script>
+    getQR(nombreAlea(1, 4));
+</script>
+</body>
+</html>
+
